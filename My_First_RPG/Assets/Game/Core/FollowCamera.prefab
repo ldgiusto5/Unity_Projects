@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6742211266408079610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2078464730196740535}
+  - component: {fileID: 2729437216611055833}
+  m_Layer: 0
+  m_Name: FollowCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2078464730196740535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742211266408079610}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.07, y: 1, z: 1.898}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6425292189326052262}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2729437216611055833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742211266408079610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22feb2ae28352b34b8f69dffe35a6293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!1001 &757153881000921168
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2078464730196740535}
+    m_Modifications:
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.62201804
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.2813378
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.6657576
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.30118006
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 35.592
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8761988609239639032, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+      propertyPath: m_Name
+      value: Main Camera
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+--- !u!4 &6425292189326052262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6028853450761126902, guid: d14220b359dd972448de12e8f5d50037, type: 3}
+  m_PrefabInstance: {fileID: 757153881000921168}
+  m_PrefabAsset: {fileID: 0}

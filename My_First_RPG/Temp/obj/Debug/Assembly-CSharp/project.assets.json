@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Boxophobic.SkyboxCubemapExtended.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Boxophobic.Utils.Editor": "1.0.0",
+          "Boxophobic.Utils.Scripts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Boxophobic.SkyboxCubemapExtended.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Boxophobic.SkyboxCubemapExtended.Editor.dll": {}
+        }
+      },
+      "Boxophobic.Utils.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Boxophobic.Utils.Scripts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Boxophobic.Utils.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Boxophobic.Utils.Editor.dll": {}
+        }
+      },
+      "Boxophobic.Utils.Scripts/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Boxophobic.Utils.Scripts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Boxophobic.Utils.Scripts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Boxophobic.SkyboxCubemapExtended.Editor/1.0.0": {
+      "type": "project",
+      "path": "Boxophobic.SkyboxCubemapExtended.Editor.csproj",
+      "msbuildProject": "Boxophobic.SkyboxCubemapExtended.Editor.csproj"
+    },
+    "Boxophobic.Utils.Editor/1.0.0": {
+      "type": "project",
+      "path": "Boxophobic.Utils.Editor.csproj",
+      "msbuildProject": "Boxophobic.Utils.Editor.csproj"
+    },
+    "Boxophobic.Utils.Scripts/1.0.0": {
+      "type": "project",
+      "path": "Boxophobic.Utils.Scripts.csproj",
+      "msbuildProject": "Boxophobic.Utils.Scripts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Boxophobic.SkyboxCubemapExtended.Editor >= 1.0.0",
+      "Boxophobic.Utils.Editor >= 1.0.0",
+      "Boxophobic.Utils.Scripts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ldgiu\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\ldgiu\\.nuget\\packages\\",
+      "outputPath": "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ldgiu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Boxophobic.SkyboxCubemapExtended.Editor.csproj": {
+              "projectPath": "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Boxophobic.SkyboxCubemapExtended.Editor.csproj"
+            },
+            "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Boxophobic.Utils.Editor.csproj": {
+              "projectPath": "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Boxophobic.Utils.Editor.csproj"
+            },
+            "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Boxophobic.Utils.Scripts.csproj": {
+              "projectPath": "D:\\Documentos\\Proyectos Unity\\My_First_RPG\\Boxophobic.Utils.Scripts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
